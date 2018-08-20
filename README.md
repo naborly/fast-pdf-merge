@@ -1,8 +1,6 @@
-## easy-pdf-merge
+## fast-pdf-merge
 
-easy-pdf-merge is a node module to merge multiple PDFs into a single PDF easily. This module uses [Apache PDFBox Library 2.0.1](http://pdfbox.apache.org). No special softwares are required for the module to run. But Java 6 or higher must be present.
-
-This project is currently NOT MAINTAINED. Contributions through PRs are welcome. I will try to add a contributing guide. If you benefit from this project, buy me a cup of coffee by donating through [Paypal](https://www.paypal.me/karuppiah7890/10)
+easy-pdf-merge is a node module to merge multiple PDFs into a single PDF easily. This module uses [Apache PDFBox Library 2.0.11](http://pdfbox.apache.org). No special softwares are required for the module to run. But Java 6 or higher must be present.
 
 Currently only callback style is supported. That is only Async functions are supported.
 
@@ -53,9 +51,9 @@ merge(['/home/karuppiah/File One.pdf','/home/karuppiah/File Two.pdf'],'/home/kar
 });
 ```
 
-## An App based on easy-pdf-merge!
+## An App based on fast-pdf-merge!
 
-[PDF Merger](https://github.com/karuppiah7890/pdf-merger-app) is a cross platform Desktop App being developed using [Electron Framework](http://electron.atom.io) and [easy-pdf-merge module](https://www.npmjs.com/package/easy-pdf-merge). You can find the source code of the App [here](https://github.com/karuppiah7890/pdf-merger-app).
+[PDF Merger](https://github.com/karuppiah7890/pdf-merger-app) is a cross platform Desktop App being developed using [Electron Framework](http://electron.atom.io) and [fast-pdf-merge module](https://www.npmjs.com/package/fast-pdf-merge).
 
 ## Coming Soon :
   1. Module will check if source files exist and return appropriate error.
@@ -63,11 +61,7 @@ merge(['/home/karuppiah/File One.pdf','/home/karuppiah/File Two.pdf'],'/home/kar
 
 ## Reporting Issues and Feature Requests
 
-For reporting issues and for feature requests, go to the [github issues page of the module](https://github.com/karuppiah7890/easy-pdf-merge/issues)
-
-<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/As7RZLNBAMSNCAFdWx5r75nM/karuppiah7890/easy-pdf-merge'>
-  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/As7RZLNBAMSNCAFdWx5r75nM/karuppiah7890/easy-pdf-merge.svg' />
-</a>
+For reporting issues and for feature requests, go to the [github issues page of the module](https://github.com/naborly/fast-pdf-merge/issues)
 
 ## License - Apache License 2.0
 ```

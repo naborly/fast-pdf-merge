@@ -1,6 +1,6 @@
 {
-  "name": "easy-pdf-merge",
-  "version": "0.1.3",
+  "name": "fast-pdf-merge",
+  "version": "1.0.0",
   "description": "A node module to merge PDFs. Using Apache PDFBox.",
   "main": "./distribution/index.js",
   "engines": {
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/naborly/easy-pdf-merge.git"
+    "url": "git+https://github.com/naborly/fast-pdf-merge.git"
   },
   "keywords": [
     "pdf",
@@ -27,12 +27,12 @@
   "author": "Alex Hughes <alex.hughes000@gmail.com> (https://www.github.com/g0ddish)",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/naborly/easy-pdf-merge/issues",
+    "url": "https://github.com/naborly/fast-pdf-merge/issues",
     "email": "alex.hughes000@gmail.com"
   },
-  "homepage": "https://github.com/naborly/easy-pdf-merge#readme",
+  "homepage": "https://github.com/naborly/fast-pdf-merge#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-preset-es2015": "^6.22.0"
+    "babel-preset-es2015": "^6.24.1"
   }
 }
